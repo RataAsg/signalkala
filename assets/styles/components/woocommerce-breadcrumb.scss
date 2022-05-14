@@ -1,0 +1,29 @@
+.breadcrumb-container{
+    .woocommerce-breadcrumb{
+        z-index: 10;
+        display: flex;
+        margin-bottom: 0px !important;
+        font-size: 12px;
+        color: #00D37F;
+        @media(min-width:996px){
+            color: #fff;
+        }
+        a{
+            color: #00D37F;
+            @media(min-width:996px){
+                color: #fff;
+                font-size: 12px;
+            }
+            font-size: 14px;
+        }
+        &>a:first-child{
+            &::after{
+                content: url('assets/img/mobilehomebreadcrumbicon.svg'); 
+                @media(min-width:996px){
+                    content: url('assets/img/homebreadcrumbicon.svg');
+                }
+            }
+        }
+    }
+    z-index: 10;
+}

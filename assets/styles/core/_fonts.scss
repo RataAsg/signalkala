@@ -1,0 +1,101 @@
+$fa-font-path: './assets/fonts/font-awesome/';
+
+@import '../../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome';
+@import '../../../node_modules/@fortawesome/fontawesome-free/scss/brands';
+@import '../../../node_modules/@fortawesome/fontawesome-free/scss/regular';
+@import '../../../node_modules/@fortawesome/fontawesome-free/scss/solid';
+@import '../../../node_modules/@fortawesome/fontawesome-free/scss/v4-shims';
+
+
+
+@font-face {
+	font-family: 'Estedad-Black';
+	src: url('./assets/fonts/estedad/Estedad-Black.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Estedad-Bold';
+	src: url('./assets/fonts/estedad/Estedad-Bold.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Estedad-ExtraBold';
+	src: url('./assets/fonts/estedad/Estedad-ExtraBold.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Estedad-ExtraLight';
+	src: url('./assets/fonts/estedad/Estedad-ExtraLight.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Estedad-Light';
+	src: url('./assets/fonts/estedad/Estedad-Light.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Estedad-Medium';
+	src: url('./assets/fonts/estedad/Estedad-Medium.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Estedad-Regular';
+	src: url('./assets/fonts/estedad/Estedad-Regular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Estedad-SemiBold';
+	src: url('./assets/fonts/estedad/Estedad-SemiBold.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Estedad-Thin';
+	src: url('./assets/fonts/estedad/Estedad-Thin.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+.fa-font-black {
+	font-family: 'Estedad-Black' !important;
+}
+.fa-font-bold {
+	font-family: 'Estedad-Bold' !important;
+}
+.fa-font-extra-bold {
+	font-family: 'Estedad-ExtraBold' !important;
+}
+.fa-font-extra-light {
+	font-family: 'Estedad-ExtraLight' !important;
+}
+.fa-font-light {
+	font-family: 'Estedad-Light' !important;
+}
+.fa-font-medium {
+	font-family: 'Estedad-Medium' !important;
+}
+.fa-font-reg {
+	font-family: 'Estedad-Regular' !important;
+}
+.fa-font-semi-bold {
+	font-family: 'Estedad-SemiBold' !important;
+}
+.fa-font-thin {
+	font-family: 'Estedad-Thin' !important;
+}

@@ -1,0 +1,14 @@
+.c-search{
+    border: 1px solid #00AB67;
+    border-radius: 4px;
+    background: rgba(196, 196, 196, 0.02);
+    input{
+        &::placeholder{
+            color: #BABABA;
+            font-size: 13px;
+        }
+    }
+    button{
+        background-color: #00AB67;
+    }
+}

@@ -1,0 +1,47 @@
+// outline all input none
+textarea:focus,
+input:focus,
+button:focus {
+	outline: none;
+}
+
+body,
+html {
+	overflow-x: hidden;
+}
+
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+	outline: none;
+}
+
+// rtl in form7
+.wpcf7 {
+	direction: rtl !important;
+}
+
+select option {
+	color: black;
+}
+
+// wp admin bar
+// body.logged-in {
+// 	.sticky-wrapper {
+// 		top: 80px;
+// 		margin-top: 32px;
+// 	}
+// }
+
+// line height
+p {
+	line-height: 28px;
+}
+
+// contact form
+.wpcf7 input[type='url'],
+.wpcf7 input[type='email'],
+.wpcf7 input[type='tel'] {
+	direction: rtl;
+}

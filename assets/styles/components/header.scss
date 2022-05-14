@@ -1,0 +1,197 @@
+.main-header {
+    // @media(min-width:996px){
+    //     background-image: url("assets/img/headerbg.png");
+    //     background-position: center;
+    //     background-repeat: no-repeat;
+    //     background-size: cover;
+    // }
+    .menu-list-container{
+        background-color: #05AB6B;
+    }
+    & > section{
+        @media(min-width:996px){
+            background-image: none;
+        }
+        // background-image: linear-gradient(rgba(21, 21, 21, 0.77),rgba(0, 0, 0, 1));
+    }
+   
+    z-index: 9999;
+    .custom-logo-link{
+        padding: 8px;
+    }
+    .menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        color: #fff;
+        font-size: 16px;
+        gap: 44px;
+        li {
+            a{
+                padding: 8px;
+            }
+        }
+        .menu-item-has-children{
+            position: relative;
+            .sub-menu{
+                position: absolute;
+                display: none;
+            }
+            a{
+                &::after{
+                    content: '';
+                    position: absolute;
+                    top: 50%;
+                    left: -10px;
+                    transform: translateY(-50%);
+                    width: 0px;
+                    height: 0px;
+                    border-left: 5.5px solid transparent;
+                    border-right: 5.5px solid transparent;
+                    border-top: 7px solid #fff;
+                }
+            }
+        }
+    }
+    .mobile-menu-icon {
+        width: 36px;
+        height: 24px;
+        span{
+            background-color: #05AB6B;
+            height: 3px;
+            width: 75%;
+            &:first-child{
+                top: 0px;
+            }
+            &:nth-child(2){
+                top: 50%;
+                transform: translateY(-50%);
+                width: 100%;
+            }
+            &:last-child{
+                bottom: 0px;
+            }
+        }
+    }
+    .left-column {
+        .cart-container{
+            &::after{
+                content: "";
+                width: 1px;
+                height: 100%;
+                background-color:#8C8C8C;
+                position: absolute;
+                left: -4px;
+                @media(min-width:996px){
+                    left: -8px;
+                }
+                @media(min-width:1024px){
+                    left: -12px;
+                }
+                top: 50%;
+                transform: translateY(-50%);
+            }
+        }
+        .cart-link{
+            color: #CECECE;
+            font-size: 14px;
+            padding: 8px;
+        }
+    }
+}
+// .sticky-header{
+//     background-color: rgba($color: #000000, $alpha: 0.8) !important;
+// }
+
+.index-header {
+    @media(min-width:996px){
+        background-image: none;
+    }
+    background-image: linear-gradient(rgba(21, 21, 21, 0.77),rgba(0, 0, 0, 1));
+    z-index: 9999;
+    .custom-logo-link{
+        padding: 8px;
+    }
+    .menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        color: #BABABA;
+        font-size: 16px;
+        gap: 44px;
+        li {
+            a{
+                padding: 8px;
+            }
+        }
+        .menu-item-has-children{
+            position: relative;
+            .sub-menu{
+                position: absolute;
+                display: none;
+            }
+            a{
+                &::after{
+                    content: '';
+                    position: absolute;
+                    top: 50%;
+                    left: -10px;
+                    transform: translateY(-50%);
+                    width: 0px;
+                    height: 0px;
+                    border-left: 5.5px solid transparent;
+                    border-right: 5.5px solid transparent;
+                    border-top: 7px solid #41C363;
+                }
+            }
+        }
+    }
+    .mobile-menu-icon {
+        width: 36px;
+        height: 24px;
+        span{
+            background-color: #05AB6B;
+            height: 3px;
+            width: 75%;
+            &:first-child{
+                top: 0px;
+            }
+            &:nth-child(2){
+                top: 50%;
+                transform: translateY(-50%);
+                width: 100%;
+            }
+            &:last-child{
+                bottom: 0px;
+            }
+        }
+    }
+    .left-column {
+        .cart-container{
+            &::after{
+                content: "";
+                width: 1px;
+                height: 100%;
+                background-color:#8C8C8C;
+                position: absolute;
+                left: -4px;
+                @media(min-width:996px){
+                    left: -8px;
+                }
+                @media(min-width:1024px){
+                    left: -12px;
+                }
+                top: 50%;
+                transform: translateY(-50%);
+            }
+        }
+        .cart-link{
+            color: #CECECE;
+            font-size: 14px;
+            padding: 8px;
+        }
+    }
+}
+

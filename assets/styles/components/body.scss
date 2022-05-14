@@ -1,0 +1,20 @@
+body{
+    .container{
+        max-width: 100% !important;
+        padding: 0 24px !important;
+        @media(min-width:1024px){
+            padding: 0 32px !important;
+        }
+        @media(min-width:1200px){
+            padding: 0 54px !important;
+        }
+        @media(min-width:1640px){
+            padding: 0 144px !important;
+        }
+    }
+    button,a{
+        &:hover,&:focus{
+            outline: none !important;
+        }
+    }
+}

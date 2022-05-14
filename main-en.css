@@ -1,0 +1,127 @@
+html,
+body,
+p > * {
+}
+
+.searchOverlay {
+	margin-left: 140px;
+	margin-top: 100px;
+	height: 55px;
+	position: fixed;
+	z-index: 9999;
+	top: 0;
+	left: 0;
+}
+
+.third-section_entext {
+	padding-right: 35px;
+	padding-left: 0px;
+	height: 120px;
+}
+.third-section .text-eng {
+	position: absolute;
+	left: 16px;
+	bottom: 0;
+}
+.third-section .third-img-r-per,
+.third-section .third-img-l-per {
+	transition: all 800ms ease-in-out;
+}
+.third-section .text-eng-r,
+.third-section .text-per-r,
+.third-section .text-eng-l,
+.third-section .text-per-l {
+	transition: all 400ms ease-in-out;
+	transition-delay: 400ms;
+}
+.third-section .swiper-container-third {
+	width: 100%;
+	height: 40px;
+}
+.third-section_view {
+	position: absolute;
+	left: 16px;
+	bottom: 14px;
+}
+.text-eng-transition {
+	transform: translateX(300px);
+}
+.hover-border-eng svg {
+	position: absolute;
+	bottom: 3px;
+	right: -20px;
+	transform: translateY(15px);
+	opacity: 0;
+	transition: all 150ms ease-in-out;
+}
+.hover-border-eng::after {
+	content: '';
+	width: 110%;
+	height: 1px;
+	background-color: #707070;
+	margin-top: 16px;
+	position: absolute;
+	right: -2px;
+	bottom: 0;
+	transition: width 150ms ease-in-out;
+}
+.hover-border-eng:hover::after {
+	width: 0%;
+}
+.hover-border-eng:hover svg {
+	transform: translateY(0px);
+	opacity: 1;
+}
+.hover-border-eng1 svg {
+	position: absolute;
+	right: -15px;
+	bottom: 3px;
+	transform: translateY(15px);
+	opacity: 0;
+	transition: all 150ms ease-in-out;
+}
+.hover-border-eng1::after {
+	content: '';
+	width: 70%;
+	height: 1px;
+	background-color: #707070;
+	position: absolute;
+	left: 24px;
+	bottom: 0;
+	transition: width 150ms ease-in-out;
+}
+.hover-border-eng1:hover::after {
+	width: 0%;
+}
+.hover-border-eng1:hover svg {
+	transform: translateY(0px);
+	opacity: 1;
+}
+#wpcf7-f629-o1 {
+	direction: ltr !important;
+}
+.hover-border-eng2::after {
+	content: '';
+	width: 78%;
+	height: 1px;
+	background-color: #909090;
+	position: absolute;
+	left: 5px;
+	bottom: 6px;
+	transition: width 150ms ease-in-out;
+}
+.hover-border-eng2 img {
+	position: absolute;
+	right: 5px;
+	bottom: 12px;
+	transform: translateY(15px);
+	opacity: 0;
+	transition: all 150ms ease-in-out;
+}
+.hover-border-eng2:hover::after {
+	width: 0%;
+}
+.hover-border-eng2:hover img {
+	transform: translateY(0px);
+	opacity: 1;
+}

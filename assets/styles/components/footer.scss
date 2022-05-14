@@ -1,0 +1,21 @@
+footer {
+    .container{
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+    }
+    .telephone-box {
+        // &_item{
+        //     font-size: 10px;
+        // }
+    }
+    .open-hours{
+        // font-size: 9px;
+    }
+    .address{
+        // font-size: 9px;
+    }
+    .footer-links{
+        
+    }
+}
